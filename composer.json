@@ -1,0 +1,32 @@
+{
+	"name": "68publishers/ublaboo-datagrid-extensions",
+	"description": "Temporary repository for sharing our improvements for ublaboo/datagrid between projects",
+	"keywords": ["68publishers", "user", "management"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Tomáš Glawaty",
+			"email": "tomasglawaty@icloud.com"
+		}
+	],
+	"require": {
+		"php": "~7.1",
+		"nette/utils": "~2.4",
+		"nette/forms": "~2.4",
+		"ramsey/uuid": "^3.8",
+		"ublaboo/datagrid": "^5.7",
+		"ipub/form-phone": "^1.1"
+	},
+	"require-dev": {
+		"friendsofphp/php-cs-fixer": "^2.0",
+		"nette/tester": "^1.7"
+	},
+	"autoload": {
+		"classmap": ["src/"],
+		"files": []
+	},
+	"autoload-dev": {
+		"classmap": ["tests/"],
+		"files": []
+	}
+}
